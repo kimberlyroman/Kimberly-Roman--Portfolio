@@ -159,6 +159,7 @@ nav{
 }
 
 /* Tech Stack */
+
 .language{
     width:25%;
 }
@@ -167,15 +168,16 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px 16px;
 }
+
 .language__image{
     width: 100%;
     max-width: 100px;
 }
+
 .language__list{
     display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex: wrap;
+    flex-wrap: wrap;
 }
