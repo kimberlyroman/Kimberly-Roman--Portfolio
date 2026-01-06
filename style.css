@@ -37,9 +37,20 @@ li{
 }
  
 .text-purple{
-    color:#6030b1;
+    color:#4361ee;
 }
 
+section:nth-child(even){
+    background-color:#4362ee5c;
+}
+
+.container{
+    padding: 50px 0;
+}
+
+.section__title{
+    margin-bottom: 20px;
+}
 /* NAVIGATION BAR */
 
 nav{
@@ -65,7 +76,7 @@ nav{
 
 .nav__link--anchor--primary{
 
-    background-color: #6030b1;
+    background-color: #4361ee;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -74,13 +85,13 @@ nav{
 }
 
 .nav__link--anchor--primary:hover {
-    background-color: #5d3eff;
+    background-color: #3a0ca3;
     cursor: pointer;
 }
 
 .personal__logo {
     font-size: 24px;
-    color: #6030b1;
+    color: #4361ee;
     margin: 0 12px;
     font: bold;
 }
@@ -92,7 +103,10 @@ nav{
     display:flex;
     flex-direction: column;
 }
-
+.about-me__info{
+    display: flex;
+    flex-direction: column;
+}
 .about-me__info--container {
     display: flex;
     flex-direction: column;
@@ -108,7 +122,7 @@ nav{
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow:0 8 16 rgba(0 0 0 .16);
+    box-shadow:0 8 16 #4361ee;
     margin-bottom: 28px;
 }
 
@@ -124,4 +138,44 @@ nav{
     line-height: 1.5;
     font-size: 20px;
     margin-bottom: 28px;
+}
+
+.about-me__link{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    padding: 0 16px;
+}
+.about-me__image__container{
+    flex: 1;
+    display: flex; 
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.about-me__img {
+    width: 100%;
+}
+
+/* Tech Stack */
+.language{
+    width:25%;
+}
+
+.language__image__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language__image{
+    width: 100%;
+    max-width: 100px;
+}
+.language__list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
 }
