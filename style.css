@@ -29,6 +29,17 @@ li{
 .flex {
     display: flex;
 }
+
+.row{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+.text-purple{
+    color:#6030b1;
+}
+
 /* NAVIGATION BAR */
 
 nav{
@@ -80,12 +91,37 @@ nav{
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-
 }
 
 .about-me__info--container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-me__picture--mask {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow:0 8 16 rgba(0 0 0 .16);
+    margin-bottom: 28px;
+}
+
+.about-me__image {
+    width: 100%;
+}
+
+.about-me__info--title{
+    margin-bottom: 16px
+}
+
+.about-me__info--para {
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 28px;
 }
