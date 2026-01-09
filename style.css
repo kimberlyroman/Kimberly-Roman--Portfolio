@@ -409,10 +409,29 @@ footer{
     .nav__link {
         display: none;
     }
-    .project__description{
 
+    .project__description{
+        padding: 0;
+        left: 0;
+        width: 100%;
     }
+
     .project__description__para{
-        
+        display:none;
+    }
+    .project__description__links {
+        display:flex;  
+        justify-content: center;
+    }
+
+    .project__description__subtitle {
+        text-align: center;
+        margin: 12px 0;
+    }
+
+    .project__description__title{
+        font-size: 32px;
+        line-height: 1;
+        text-align: center;
     }
 }
